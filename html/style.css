@@ -1,5 +1,6 @@
 
 
+/*inicio de los header*/
 .demas {
     font-family: sans-serif;
     margin: 0;
@@ -15,9 +16,6 @@
 .inicio {
     font-family: sans-serif;
     margin: 0;
-    /*background-color: rgba(0, 0, 0, 0.753);
-    background-image: url(../imagenes/ciclistas-2.jpg);
-    background-repeat: no-repeat;*/
 }
 
 
@@ -32,8 +30,7 @@ header {
 
 header nav ul a{
     text-decoration: none;
-    color:white;
-    
+    color:white;   
 }
 
 .logo {
@@ -43,14 +40,40 @@ header nav ul a{
 .logo img {
     height: 48px;
 }
+/*fin de los header*/
 
+/*inicio de los main*/
 .menu-1 {
     padding: 1px;
     background-image: url(../imagenes/ciclistas-2.jpg);
     background-repeat: no-repeat;
+    background-color: #3b3b3bcb;
 }
 
+.menu-4 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 59px;
+}
 
+.menu-sobrenosotros {
+    padding: 1px;
+    height: 520px;
+    /*
+    background-image: url(../imagenes/fondo-eltallerbikes.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    */
+    background-color: #3b3b3bcb;
+}
+
+/*fin de los main*/
+
+.sobre-nosotros {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .logo-nombre {
     display: flex;
@@ -59,12 +82,13 @@ header nav ul a{
 }
 
 .about-inicio{
-    padding-top: 150px;
+    padding-top: 105px;
     padding-left: 20px;
     width: 400px;
     height: 300px;
 }
 
+/*inicio de bicicletas*/
 .Raleigh-1 {
     padding-left: 20px;
     color: white;
@@ -117,26 +141,32 @@ header nav ul a{
     width: 640px;
     height: 500px;
 }
+/*fin de bicicletas*/
 
+/*inicio about us*/
 .sobre-nosotros {
-
-    padding-bottom: 330px;
+    padding-bottom: 310px;
 }
+/*fin about us*/
 
+
+/*inicio footer*/
 footer {
+    display: flex;
     background-color: #3b3b3bcb;
-   margin-top: 0%;
-    height: 350px;
+    margin-top: 0%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .redes {
-    
+    padding-left: 20px;
     text-decoration: none;
     color: white;
 }
 
 .suscripcion {
-    text-align: center;
     color: white;
 }
 
@@ -145,3 +175,8 @@ footer {
     text-decoration: none;
 }
 
+#ubicacion {
+    padding-right: 20px;
+}
+
+/*fin footer*/
