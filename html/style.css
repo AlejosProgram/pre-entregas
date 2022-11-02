@@ -63,6 +63,10 @@ header nav ul a{
     font-size: 59px;
 }
 
+.titulo-Nosotros {
+    color: rgb(0, 0, 0);
+}
+
 .menu-sobrenosotros {
     padding: 1px;
     height: 687px;
@@ -84,10 +88,16 @@ header nav ul a{
 
 .sobre-nosotros {
     display: flex;
-    justify-content: flex-end;
-    padding-top: 100px;
-    padding-right: 50px;
+    justify-content: flex-end;  
+
     color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.562);
+    margin: 150px 20px 120px 64.5%;
+    /* margin-left: 64.5%;
+    margin-right: 20px; */
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 0;
 }
 
 .logo-nombre {
